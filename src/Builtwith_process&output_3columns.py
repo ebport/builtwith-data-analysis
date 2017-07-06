@@ -16,7 +16,7 @@ base_url_string =  "http://api.builtwith.com/v7/api.json?KEY={0}&LOOKUP={1}"
 credits_available_string = "x-api-credits-available"
 credits_used_string = "x-api-credits-used"
 url_file='input.txt' # text file containing urls
-key="1e3fb00c-a1a3-419a-b2cd-50688a33cdc2"
+key=os.environ['BW_API_KEY']
 
 # add in ability to use parameter to indicate if files are already there or need to be pulled
 # separating download and processing and putting into one batch file is probably ideal
